@@ -6,7 +6,7 @@ on:
       - postprocess.ts
   workflow_dispatch: null
   schedule:
-    - cron: 40 * * * *
+    - cron: 29 * * * *
 jobs:
   scheduled:
     runs-on: ubuntu-latest
